@@ -1,4 +1,4 @@
-package com.example.cryptocurrency.presentation
+package com.example.cryptocurrency
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
@@ -8,7 +8,7 @@ import androidx.compose.material.Surface
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.cryptocurrency.R
+import com.example.cryptocurrency.presentation.Screen
 import com.example.cryptocurrency.presentation.coin_detail.CoinDetailScreen
 import com.example.cryptocurrency.presentation.coin_list.CoinListScreen
 import com.plcoding.cryptocurrency.ui.theme.CryptocurrencyAPPTheme
