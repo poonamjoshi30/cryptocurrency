@@ -85,9 +85,8 @@ fun CoinDetailScreen(
                             .fillMaxWidth()
                             .padding(10.dp)
                     )
+                    Divider()
                 }
-                Divider()
-
             }
         }
         if (state.error.isNotBlank()) {
@@ -105,5 +104,4 @@ fun CoinDetailScreen(
             CircularProgressIndicator(modifier = Modifier.align(Alignment.Center))
         }
     }
-
 }
